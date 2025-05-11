@@ -1,6 +1,5 @@
 {
   "version": 2,
   "buildCommand": "echo 'Skipping build step'",
-  "outputDirectory": ".",
-  "framework": "static"
+  "outputDirectory": "."
 } 
