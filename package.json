@@ -57,6 +57,7 @@
     "release": "build=true release=true types=true rollup -c",
     "open-examples": "browser-sync start --startPath examples --server --no-notify --directory --files '**/*.js'",
     "test-browser": "browser-sync start --startPath tests/index.html --server --files '**/*.js' --no-notify --directory",
-    "test-node": "node --allow-natives-syntax \"node_modules/.bin/mocha\" -u tdd --timeout 20000 \"./tests/suites/node.test.js\""
+    "test-node": "node --allow-natives-syntax \"node_modules/.bin/mocha\" -u tdd --timeout 20000 \"./tests/suites/node.test.js\"",
+    "vercel-build": "echo 'Skipping build step for static deployment'"
   }
 }
